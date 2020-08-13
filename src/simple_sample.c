@@ -1,5 +1,5 @@
 #include "simple_sample.h"
 
-void printf_sample(void){ 
-  printf("This is a simple sample");
+void printout_sample(void){ 
+  ESP_LOGI("simple_sample", "This is a simple sample");
 }

@@ -3,11 +3,13 @@
 
 #include <stdio.h>
 
+#include "esp_log.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-void printf_sample(void);
+void printout_sample(void);
 
 #ifdef __cplusplus
 }
